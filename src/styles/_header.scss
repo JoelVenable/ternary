@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hello {
+  color: orange;
+
+  &--blue {
+    color: $mainBlue;
+    font-size: 2rem;
+  }
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.limit-width {
+  width: 200px;
+}
+
+.custom-restricted-width {
+  display: inline-block;
+}
