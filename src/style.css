@@ -4,3 +4,5 @@
 @import "styles/_01-global.scss";
 @import "styles/_header.scss";
 @import "styles/_modal.scss";
+@import "styles/_wrapper.scss";
+@import "styles/_card.scss";

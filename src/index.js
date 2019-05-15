@@ -9,9 +9,14 @@ import {
   showLogin,
   showLogout
 } from "./modules/show/header";
+import {
+  showMainContentArea
+} from "./modules/show/card";
 
 if (!getLoggedInUser()) {
   showLogin();
 } else {
   showLogout();
 }
+
+showMainContentArea();

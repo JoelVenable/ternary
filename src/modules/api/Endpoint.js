@@ -15,6 +15,7 @@ export function Endpoint(url) {
   this.read = (params) => {
     let newURL = url;
     if (params) newURL += `${params}`;
+    console.log(newURL);
     return fetch(newURL)
       .then(response => response.json());
   };
