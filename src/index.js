@@ -1,5 +1,5 @@
 import "./style.css";
-import "./modules/header";
+import "./modules/show/header";
 
 
 import {
@@ -8,7 +8,7 @@ import {
 import {
   showLogin,
   showLogout
-} from "./modules/header";
+} from "./modules/show/header";
 
 if (!getLoggedInUser()) {
   showLogin();

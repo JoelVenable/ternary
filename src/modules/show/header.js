@@ -1,3 +1,11 @@
+import {
+  setSessionStorage
+} from "../sessionStorage";
+import {
+  users
+} from "../api/users";
+
+
 let header = document.createElement("div");
 header.classList.add("main-header");
 let root = document.querySelector("#root");
@@ -12,11 +20,15 @@ h2.classList.add("main-header__heading");
 
 
 export function showLogin() {
-  let link = showLink("Login");
+  let btnContainer = showLink("Login");
+  btnContainer.addEventListener("click", (event => {
+    users.getUserByID(1)
+      .then(setSessionStorage);
+  }));
 }
 
 export function showLogout() {
-  let link = showLink("Logout");
+  let btnContainer = showLink("Logout");
 }
 
 function showLink(linkText) {
@@ -26,4 +38,5 @@ function showLink(linkText) {
   p.textContent = linkText;
   btnContainer.appendChild(p);
   header.appendChild(btnContainer);
+  return btnContainer;
 }
