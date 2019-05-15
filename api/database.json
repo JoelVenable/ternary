@@ -15,5 +15,11 @@
       "visa_required": false
     }
   ],
-  "interests": []
+  "interests": [],
+  "users": [{
+    "id": 1,
+    "userName": "Joel",
+    "email": "Joel@joel.com",
+    "password": "joel",
+  }]
 }
