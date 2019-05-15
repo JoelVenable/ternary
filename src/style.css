@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "../node_modules/purecss/build/pure.css";
 @import "styles/_00_global_vars.scss";
 @import "styles/_header.scss";
-@import "../node_modules/purecss/build/pure.css";
+@import "styles/_modal.scss";

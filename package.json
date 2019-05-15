@@ -48,6 +48,7 @@
     "eslint-loader": "^2.1.2",
     "lodash": "^4.17.11",
     "normalize.css": "^8.0.1",
+    "postcss-simple-vars": "^5.0.2",
     "purecss": "^1.0.0"
   }
 }
