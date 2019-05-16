@@ -31,16 +31,12 @@
 
 .modal-icon-close {
   padding: .2rem .4rem;
-  border: 1px solid red;
   cursor: pointer;
 }
 
 .modal-inner {
   margin: 1rem;
 
-  & legend {
-    margin-bottom: 1rem;
-  }
 
   & input {
     width: 70%;
@@ -50,6 +46,18 @@
   & button {
     width: 20%;
     cursor: pointer;
+    float: right;
 
   }
+}
+
+.modal-header {
+  margin-bottom: 1rem;
+  padding-bottom: .2rem;
+  border-bottom: 1px solid $brown;
+
+}
+
+.pure-control-group textarea {
+  width: 70%;
 }

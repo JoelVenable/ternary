@@ -9,10 +9,22 @@
 
 .card {
   width: 27%;
+  border-radius: 10px;
   background-color: white;
   padding: 1rem;
   border: 1px solid $darkBlue;
   box-shadow: 5px 5px 10px $darkBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+
+  &-buttonContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-self: end;
+  }
 }
 
 .card-interest-list {

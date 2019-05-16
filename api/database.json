@@ -1,5 +1,6 @@
 {
-  "places": [{
+  "places": [
+    {
       "id": 1,
       "name": "Italy",
       "visa_required": false
@@ -15,18 +16,76 @@
       "visa_required": false
     }
   ],
-  "interests": [{
-    "id": 1,
-    "placeId": 1,
-    "name": "Local Market",
-    "description": "Local market where you can try purchase local products and try the local food",
-    "cost": 0.00,
-    "review": ""
-  }],
-  "users": [{
-    "id": 1,
-    "userName": "Joel",
-    "email": "Joel@joel.com",
-    "password": "joel"
-  }]
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can try purchase local products and try the local food",
+      "cost": 0,
+      "review": ""
+    },
+    {
+      "name": "Pizza joint",
+      "description": "Located at 41st Elm street",
+      "cost": "55.00",
+      "review": "",
+      "id": 2
+    },
+    {
+      "name": "Pizza joint",
+      "description": "Next to the parthenon.",
+      "cost": "55.00",
+      "review": "It's awesome",
+      "id": 3
+    },
+    {
+      "name": "Cici's pizza",
+      "description": "They have those in Italy???",
+      "cost": "55.00",
+      "review": "It's not awesome.",
+      "placeId": 1,
+      "id": 4
+    },
+    {
+      "name": "asfld",
+      "description": "qasdflkj",
+      "cost": "1357.42",
+      "review": "21",
+      "placeId": 1,
+      "id": 5
+    },
+    {
+      "name": "Swiss Bank",
+      "description": "Store gold there",
+      "cost": "24124121233.12",
+      "review": "Hope it doesn't get lost.",
+      "placeId": 2,
+      "id": 6
+    },
+    {
+      "name": "asdf",
+      "description": "sdf",
+      "cost": "12",
+      "review": "sdf",
+      "placeId": 2,
+      "id": 7
+    },
+    {
+      "name": "fasjk",
+      "description": "sldfk",
+      "cost": "23",
+      "review": "123dflakdjf",
+      "placeId": 1,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Joel",
+      "email": "Joel@joel.com",
+      "password": "joel"
+    }
+  ]
 }

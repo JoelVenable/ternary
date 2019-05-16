@@ -1,6 +1,6 @@
 import "./style.css";
 import "./modules/show/header";
-
+import "../node_modules/ionicons/dist/ionicons";
 
 import {
   getLoggedInUser

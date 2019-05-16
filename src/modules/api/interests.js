@@ -7,7 +7,8 @@ import {
 const interestsEndpoint = new Endpoint("http://localhost:8088/interests");
 
 
-export const users = {
+export const interests = {
+  addNewInterest: (obj) => interestsEndpoint.create(obj),
   getInterests: (id) => interestsEndpoint.read(`/${id}`),
   searchForUser: () => interestsEndpoint.read("?")
 };
