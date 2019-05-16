@@ -7,6 +7,9 @@ import {
 import {
   refresh
 } from "./show/card";
+import {
+  confirmDelete
+} from "./confirmDelete";
 
 
 export function editInterest(buttonClicked) {
@@ -46,7 +49,7 @@ export function editInterest(buttonClicked) {
       modal.remove();
     }
     if (event.target.id === "deleteBtn") {
-      interests.deleteInterest(interestId).then(refresh);
+      confirmDelete(name.value, interestId);
     }
 
   }));

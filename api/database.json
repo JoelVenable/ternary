@@ -40,36 +40,12 @@
       "id": 3
     },
     {
-      "name": "asfld",
-      "description": "qasdflkj",
-      "cost": "1357.42",
-      "review": "21",
-      "placeId": 1,
-      "id": 5
-    },
-    {
       "name": "Swiss Bank",
       "description": "Store gold there",
       "cost": "24124121233.12",
       "review": "Hope it doesn't get lost.",
       "placeId": 2,
       "id": 6
-    },
-    {
-      "name": "asdf",
-      "description": "sdf",
-      "cost": "12",
-      "review": "sdf",
-      "placeId": 2,
-      "id": 7
-    },
-    {
-      "name": "fasjk",
-      "description": "sldfk",
-      "cost": "23",
-      "review": "123dflakdjf",
-      "placeId": 1,
-      "id": 8
     }
   ],
   "users": [
