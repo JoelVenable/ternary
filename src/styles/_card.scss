@@ -1,17 +1,19 @@
 #card-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 
 
 
 .card {
-  width: 27%;
+  width: 85%;
   border-radius: 10px;
   background-color: white;
   padding: 1rem;
+  margin-bottom: 2rem;
   border: 1px solid $darkBlue;
   box-shadow: 5px 5px 10px $darkBlue;
   display: flex;
@@ -28,11 +30,11 @@
 }
 
 .card-interest-list {
+  list-style: none;
+
   & li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+    margin: 1rem;
 
     & button {
       padding: .2rem .5rem;
@@ -44,4 +46,12 @@
     padding-left: .8rem;
   }
 
+}
+
+.card-interest-name {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
