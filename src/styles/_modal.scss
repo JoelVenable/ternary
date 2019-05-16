@@ -61,3 +61,15 @@
 .pure-control-group textarea {
   width: 70%;
 }
+
+.modal-button-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  float: right;
+}
+
+.modal-button-warning {
+  background-color: red;
+}

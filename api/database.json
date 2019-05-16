@@ -34,18 +34,10 @@
     },
     {
       "name": "Pizza joint",
-      "description": "Next to the parthenon.",
+      "description": "Next to the parthenon.  Oh wait, that's in Greece.",
       "cost": "55.00",
       "review": "It's awesome",
       "id": 3
-    },
-    {
-      "name": "Cici's pizza",
-      "description": "They have those in Italy???",
-      "cost": "55.00",
-      "review": "It's not awesome.",
-      "placeId": 1,
-      "id": 4
     },
     {
       "name": "asfld",
